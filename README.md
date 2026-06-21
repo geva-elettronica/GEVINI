@@ -7,9 +7,9 @@ built around the Microchip **SAMD21** microcontroller (32-bit ARM Cortex-M0+). E
 
 Designed and manufactured by **[GEVA Elettronica](https://www.gevaelettronica.it)** (Italy).
 
-This repository is the **shared manual** for the whole GEVINO family: which model to pick, how to
-set up the programming environment, and how to open the enclosure safely. For the per-model
-programming reference (pinout, macros, examples, `AGENTS.md`) see each board's own repository.
+This repository is the **shared manual** for the whole GEVINO family: which model to pick and how to
+set up the programming environment. For the per-model programming reference (pinout, macros,
+examples, `AGENTS.md`) and hardware guides see each board's own repository.
 
 ---
 
@@ -19,7 +19,9 @@ programming reference (pinout, macros, examples, `AGENTS.md`) see each board's o
 |----------|----------------|
 | **[1 · Models overview](docs/01-models-overview.md)** | The differences between the GEVINO models — pick the right board. |
 | **[2 · Install VS Code + Claude Code + Arduino Maker Workshop](docs/02-install-vscode-claude-arduino.md)** | Set up the full programming toolchain on Windows from scratch. |
-| **[3 · Open the enclosure without breaking it](docs/03-open-the-enclosure.md)** | How to open the case and reach the SD card without snapping the fragile hooks. |
+
+> Opening the enclosure is board-specific. For the GEVINO Opto see
+> **[Opening of GEVINO Opto](https://github.com/geva-elettronica/GEVINO-Opto-PNP/blob/main/docs/open-the-enclosure.md)** in the Opto PNP repository.
 
 ---
 

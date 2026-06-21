@@ -117,4 +117,4 @@ firmware auto-detects which one is fitted.
 ### Next steps
 
 - Set up the programming environment → **[2 · Install VS Code + Claude Code + Arduino Maker Workshop](02-install-vscode-claude-arduino.md)**
-- Need to reach the SD card or inspect the board? → **[3 · Open the enclosure without breaking it](03-open-the-enclosure.md)**
+- Need to open the case to fit a module or inspect the board (GEVINO Opto)? → **[Opening of GEVINO Opto](https://github.com/geva-elettronica/GEVINO-Opto-PNP/blob/main/docs/open-the-enclosure.md)**

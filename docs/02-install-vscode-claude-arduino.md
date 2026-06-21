@@ -155,4 +155,4 @@ Claude Code is a command-line AI assistant that runs in the integrated terminal.
 ### Next steps
 
 - Not sure which board you have? → **[1 · Models overview](01-models-overview.md)**
-- Need to reach the SD card slot inside the case? → **[3 · Open the enclosure without breaking it](03-open-the-enclosure.md)**
+- Need to open the case for an internal modification (GEVINO Opto)? → **[Opening of GEVINO Opto](https://github.com/geva-elettronica/GEVINO-Opto-PNP/blob/main/docs/open-the-enclosure.md)**
