@@ -1,6 +1,6 @@
 # GEVINO — User Manual
 
-**GEVINO** is a family of affordable, Arduino-compatible **industrial / home-automation PLCs**
+**GEVINO** is a family of affordable, Arduino-compatible **PLCs for industry and home automation**,
 built around the Microchip **SAMD21** microcontroller (32-bit ARM Cortex-M0+). Every model is
 **Arduino Zero compatible**, so you program it with the standard Arduino IDE / Arduino SAMD core
 (and with VS Code, Cursor or OpenPLC).
