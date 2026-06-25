@@ -15,18 +15,23 @@ examples, `AGENTS.md`) and hardware guides see each board's own repository.
 
 ## The manual
 
-| Document | What it covers |
-|----------|----------------|
-| **[1 · Models overview](docs/01-models-overview.md)** | The differences between the GEVINO models — pick the right board. |
-| **[2 · Install the Arduino IDE v2 + SAMD21 compiler](docs/02-install-arduino-ide.md)** | Install the Arduino IDE 2 and the SAMD core (the SAMD21 toolchain). |
-| **[3 · Install the libraries + first example](docs/03-install-libraries-first-sketch.md)** | Add the board's GitHub library and compile/upload the first sketch. |
-| **[4 · Install Claude Code + first example](docs/04-install-claude-code.md)** | Install Anthropic's Claude Code and let it generate a sketch from `AGENTS.md`. |
-| **[5 · SD-card bootloader](docs/05-sd-bootloader.md)** | Optional: configure the GEVINO SD-bootloader board entries for SD/OTA updates. |
-| **[6 · Install VS Code + Arduino Maker Workshop + Claude](docs/06-install-vscode-claude-arduino.md)** | Alternative all-in-one toolchain: editor, compiler and AI in one window. |
+**Start here → [1 · Models overview](docs/01-models-overview.md)** — compare the GEVINO models and
+pick the right board.
 
-> **Two ways to set up.** The **Arduino IDE path** (docs 2 → 3 → 4, plus 5 if you need SD updates) is
-> the classic route. The **VS Code path** (doc 6) puts the editor, compiler and Claude in a single
-> window. Pick whichever you prefer — you don't need both.
+Then set up the programming toolchain. There are **two routes — pick one, you don't need both:**
+
+### 🅐 Arduino IDE — the classic route
+
+1. **[Install the Arduino IDE v2 + SAMD21 compiler](docs/02-install-arduino-ide.md)**
+2. **[Install the libraries + compile the first example](docs/03-install-libraries-first-sketch.md)**
+3. **[Install Claude Code + generate a first example](docs/04-install-claude-code.md)**
+4. **[SD-card bootloader](docs/05-sd-bootloader.md)** — *optional, only for SD/OTA field updates*
+
+### 🅑 VS Code — the all-in-one route
+
+- **[Install VS Code + Arduino Maker Workshop + Claude](docs/06-install-vscode-claude-arduino.md)** —
+  editor, compiler and AI assistant in a single window. *(The SD-card bootloader, step 4 above,
+  applies here too.)*
 
 > Opening the enclosure is board-specific. For the GEVINO Opto see
 > **[Opening of GEVINO Opto](https://github.com/geva-elettronica/GEVINO-Opto-PNP/blob/main/docs/open-the-enclosure.md)** in the Opto PNP repository.
@@ -37,10 +42,10 @@ examples, `AGENTS.md`) and hardware guides see each board's own repository.
 
 | Model | Best for | Key I/O | Repository |
 |-------|----------|---------|------------|
-| **GEVINO Opto PNP** | Industrial automation | 11 opto inputs, 4 PNP outputs, 2 analog in | [GEVINO-Opto-PNP](https://github.com/gioreva/GEVINO-Opto-PNP) |
-| **GEVINO Civile** | Home / building automation | 3–7 relays (5 A), 4×12 V inputs, M-Bus | [GEVINO-Civile](https://github.com/gioreva/GEVINO-Civile) |
-| **GEVINO Motor** | Motor control | TB67S128 stepper/DC driver, 5 inputs, 4 PNP outputs | [GEVINO-Motor](https://github.com/gioreva/GEVINO-Motor) |
-| **GEVINO TFT 7"/10"** | HMI / touch panel | 7"/10" capacitive touch, 12 inputs, 8 outputs | [GEVINO-TFT-7-10](https://github.com/gioreva/GEVINO-TFT-7-10) |
+| **GEVINO Opto PNP** | Industrial automation | 11 opto inputs, 4 PNP outputs, 2 analog in | [GEVINO-Opto-PNP](https://github.com/geva-elettronica/GEVINO-Opto-PNP) |
+| **GEVINO Civile** | Home / building automation | 3–7 relays (5 A), 4×12 V inputs, M-Bus | [GEVINO-Civile](https://github.com/geva-elettronica/GEVINO-Civile) |
+| **GEVINO Motor** | Motor control | TB67S128 stepper/DC driver, 5 inputs, 4 PNP outputs | [GEVINO-Motor](https://github.com/geva-elettronica/GEVINO-Motor) |
+| **GEVINO TFT 7"/10"** | HMI / touch panel | 7"/10" capacitive touch, 12 inputs, 8 outputs | [GEVINO-TFT-7-10](https://github.com/geva-elettronica/GEVINO-TFT-7-10) |
 
 See **[Models overview](docs/01-models-overview.md)** for the full comparison.
 

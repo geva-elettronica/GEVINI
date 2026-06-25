@@ -105,7 +105,7 @@ Claude Code is a command-line AI assistant that runs in the integrated terminal.
 1. **Get a GEVINO repository.** Either clone it with git, or download the ZIP from GitHub and unzip:
 
    ```powershell
-   git clone https://github.com/gioreva/GEVINO-Opto-PNP.git
+   git clone https://github.com/geva-elettronica/GEVINO-Opto-PNP.git
    ```
 
    (Swap in `GEVINO-Civile`, `GEVINO-Motor` or `GEVINO-TFT-7-10` for the other models.)

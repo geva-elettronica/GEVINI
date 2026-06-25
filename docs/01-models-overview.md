@@ -34,7 +34,7 @@ the pinout, the support library, ready-to-flash examples and the `AGENTS.md` pro
 | **Motor driver** | — | — | **Toshiba TB67S128FTG** | opt. 27 V 43 A DC driver |
 | **RS485** | ✓ | ✓ + M-Bus | ✓ | ✓ |
 | **Storage / ports** | micro-SD, USB-C | micro-SD, micro-USB | micro-SD, USB-C | rear micro-SD + USB-C, **front USB stick** |
-| **Repository** | [GEVINO-Opto-PNP](https://github.com/gioreva/GEVINO-Opto-PNP) | [GEVINO-Civile](https://github.com/gioreva/GEVINO-Civile) | [GEVINO-Motor](https://github.com/gioreva/GEVINO-Motor) | [GEVINO-TFT-7-10](https://github.com/gioreva/GEVINO-TFT-7-10) |
+| **Repository** | [GEVINO-Opto-PNP](https://github.com/geva-elettronica/GEVINO-Opto-PNP) | [GEVINO-Civile](https://github.com/geva-elettronica/GEVINO-Civile) | [GEVINO-Motor](https://github.com/geva-elettronica/GEVINO-Motor) | [GEVINO-TFT-7-10](https://github.com/geva-elettronica/GEVINO-TFT-7-10) |
 
 ---
 
@@ -49,7 +49,7 @@ make it robust against the electrical noise of a real machine.
 - Protected against **inductive loads, ESD and EMI**.
 - Optional Ethernet, Wi-Fi, Bluetooth, RTC, RS232, cellular modem and CE certification.
 
-→ [Repository & programming guide](https://github.com/gioreva/GEVINO-Opto-PNP)
+→ [Repository & programming guide](https://github.com/geva-elettronica/GEVINO-Opto-PNP)
 
 ---
 
@@ -67,7 +67,7 @@ set of radios. It also accepts an internal 220 VAC power supply, so it runs stra
 > Note: the 4 extra relays are available **only without the Ethernet module**. With Ethernet fitted,
 > **one** extra relay can still be added via a 2-pin terminal.
 
-→ [Repository & programming guide](https://github.com/gioreva/GEVINO-Civile)
+→ [Repository & programming guide](https://github.com/geva-elettronica/GEVINO-Civile)
 
 ---
 
@@ -82,7 +82,7 @@ microstepping, all driven over SPI from software.
 - Software control: torque, frequency limits, step selection, **current reading**, ADMD, anti-stall.
 - **5 PNP inputs**, **4 protected PNP outputs**, **3 analog inputs** + 2 channels reading motor phase currents.
 
-→ [Repository & programming guide](https://github.com/gioreva/GEVINO-Motor)
+→ [Repository & programming guide](https://github.com/geva-elettronica/GEVINO-Motor)
 
 ---
 
@@ -100,7 +100,7 @@ firmware auto-detects which one is fitted.
 - Many options: DC-DC isolator, 220 V PSU, RTC, RS232, SIM800L (with audio), Wi-Fi, Bluetooth,
   Ethernet, LoRa, a 27 V 43 A DC motor driver, acrylic frame and rear cover.
 
-→ [Repository & programming guide](https://github.com/gioreva/GEVINO-TFT-7-10)
+→ [Repository & programming guide](https://github.com/geva-elettronica/GEVINO-TFT-7-10)
 
 ---
 

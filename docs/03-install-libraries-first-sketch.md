@@ -15,15 +15,15 @@ Pick the repository that matches your board:
 
 | Model | Repository |
 |-------|------------|
-| GEVINO Opto PNP | https://github.com/gioreva/GEVINO-Opto-PNP |
-| GEVINO Civile | https://github.com/gioreva/GEVINO-Civile |
-| GEVINO Motor | https://github.com/gioreva/GEVINO-Motor |
-| GEVINO TFT 7"/10" | https://github.com/gioreva/GEVINO-TFT-7-10 |
+| GEVINO Opto PNP | https://github.com/geva-elettronica/GEVINO-Opto-PNP |
+| GEVINO Civile | https://github.com/geva-elettronica/GEVINO-Civile |
+| GEVINO Motor | https://github.com/geva-elettronica/GEVINO-Motor |
+| GEVINO TFT 7"/10" | https://github.com/geva-elettronica/GEVINO-TFT-7-10 |
 
 Download it in either of two ways:
 
 - **ZIP (simplest):** on the repository page click **Code → Download ZIP**.
-- **git:** `git clone https://github.com/gioreva/GEVINO-Opto-PNP.git`
+- **git:** `git clone https://github.com/geva-elettronica/GEVINO-Opto-PNP.git`
   (swap in the repository for your board).
 
 ---
