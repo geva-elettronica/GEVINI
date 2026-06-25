@@ -1,6 +1,8 @@
-# 2 · Install VS Code + Claude Code + Arduino Maker Workshop
+# 6 · Install VS Code + Arduino Maker Workshop + Claude
 
-This guide sets up a complete environment to program any **GEVINO** board on **Windows**, using:
+This guide sets up a complete, all-in-one environment to program any **GEVINO** board on **Windows**
+— editor, compiler and AI assistant in a single window. It is an **alternative** to the Arduino IDE
+path (**[docs 2–4](02-install-arduino-ide.md)**); pick whichever you prefer. It uses:
 
 - **Visual Studio Code** — the editor.
 - **Arduino Maker Workshop** — a VS Code extension that compiles and uploads Arduino sketches
@@ -64,11 +66,10 @@ GEVINO is **Arduino Zero compatible**, so it uses the official **Arduino SAMD Bo
 
 ### Optional — SD-card bootloader (GEVINO-specific)
 
-GEVINO boards can also be flashed **from the micro-SD card** using a dedicated bootloader. This
-requires copying GEVINO's `boards.txt` and `flash_with_SDbootloader.ld` into the SAMD core folder
-(typically `…\Arduino15\packages\arduino\hardware\samd\<version>\`). This is **optional** and only
-needed for SD/OTA updates — see the *Arduino IDE V2* notes shipped by GEVA. For normal USB
-programming you do **not** need it.
+GEVINO boards can also be flashed **from the micro-SD card** using a dedicated bootloader. This is
+**optional** and only needed for SD/OTA updates — for normal USB programming you do **not** need it.
+The setup (copying `boards.txt` and `flash_with_SDbootloader.ld` into the SAMD core) is the same as
+for the Arduino IDE: see **[5 · SD-card bootloader](05-sd-bootloader.md)**.
 
 ---
 
@@ -155,4 +156,5 @@ Claude Code is a command-line AI assistant that runs in the integrated terminal.
 ### Next steps
 
 - Not sure which board you have? → **[1 · Models overview](01-models-overview.md)**
+- Flash firmware from the SD card (field/OTA updates) → **[5 · SD-card bootloader](05-sd-bootloader.md)**
 - Need to open the case for an internal modification (GEVINO Opto)? → **[Opening of GEVINO Opto](https://github.com/geva-elettronica/GEVINO-Opto-PNP/blob/main/docs/open-the-enclosure.md)**

@@ -116,5 +116,5 @@ firmware auto-detects which one is fitted.
 
 ### Next steps
 
-- Set up the programming environment → **[2 · Install VS Code + Claude Code + Arduino Maker Workshop](02-install-vscode-claude-arduino.md)**
+- Set up the programming environment → **[2 · Install the Arduino IDE v2 + SAMD21 compiler](02-install-arduino-ide.md)** (or the all-in-one **[VS Code path](06-install-vscode-claude-arduino.md)**)
 - Need to open the case to fit a module or inspect the board (GEVINO Opto)? → **[Opening of GEVINO Opto](https://github.com/geva-elettronica/GEVINO-Opto-PNP/blob/main/docs/open-the-enclosure.md)**

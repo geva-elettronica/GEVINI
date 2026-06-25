@@ -18,7 +18,15 @@ examples, `AGENTS.md`) and hardware guides see each board's own repository.
 | Document | What it covers |
 |----------|----------------|
 | **[1 · Models overview](docs/01-models-overview.md)** | The differences between the GEVINO models — pick the right board. |
-| **[2 · Install VS Code + Claude Code + Arduino Maker Workshop](docs/02-install-vscode-claude-arduino.md)** | Set up the full programming toolchain on Windows from scratch. |
+| **[2 · Install the Arduino IDE v2 + SAMD21 compiler](docs/02-install-arduino-ide.md)** | Install the Arduino IDE 2 and the SAMD core (the SAMD21 toolchain). |
+| **[3 · Install the libraries + first example](docs/03-install-libraries-first-sketch.md)** | Add the board's GitHub library and compile/upload the first sketch. |
+| **[4 · Install Claude Code + first example](docs/04-install-claude-code.md)** | Install Anthropic's Claude Code and let it generate a sketch from `AGENTS.md`. |
+| **[5 · SD-card bootloader](docs/05-sd-bootloader.md)** | Optional: configure the GEVINO SD-bootloader board entries for SD/OTA updates. |
+| **[6 · Install VS Code + Arduino Maker Workshop + Claude](docs/06-install-vscode-claude-arduino.md)** | Alternative all-in-one toolchain: editor, compiler and AI in one window. |
+
+> **Two ways to set up.** The **Arduino IDE path** (docs 2 → 3 → 4, plus 5 if you need SD updates) is
+> the classic route. The **VS Code path** (doc 6) puts the editor, compiler and Claude in a single
+> window. Pick whichever you prefer — you don't need both.
 
 > Opening the enclosure is board-specific. For the GEVINO Opto see
 > **[Opening of GEVINO Opto](https://github.com/geva-elettronica/GEVINO-Opto-PNP/blob/main/docs/open-the-enclosure.md)** in the Opto PNP repository.
