@@ -33,9 +33,6 @@ Then set up the programming toolchain. There are **two routes — pick one, you 
   editor, compiler and AI assistant in a single window. *(The SD-card bootloader, step 4 above,
   applies here too.)*
 
-> Opening the enclosure is board-specific. For the GEVINO Opto see
-> **[Opening of GEVINO Opto](https://github.com/geva-elettronica/GEVINO-Opto-PNP/blob/main/docs/open-the-enclosure.md)** in the Opto PNP repository.
-
 ---
 
 ## The models at a glance

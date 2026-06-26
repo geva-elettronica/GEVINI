@@ -26,14 +26,14 @@ the pinout, the support library, ready-to-flash examples and the `AGENTS.md` pro
 | | **Opto PNP** | **Civile** | **Motor** | **TFT 7"/10"** |
 |---|---|---|---|---|
 | **Purpose** | Industrial PLC | Home / building automation | Motor control | HMI / touch panel |
-| **Power supply** | 7–40 V | 12 V (opt. internal 220 VAC PSU) | 7–40 V | 12 / 24 V (opt. 220 VAC PSU) |
+| **Power supply** | 7–40 V | 12 V (opt. internal 220 VAC PSU) | 7–40 V | 7–40 V (opt. 220 VAC PSU) |
 | **Digital inputs** | 11 opto-isolated, dual polarity | 4 × 12 V | 5 PNP | 12 opto-isolated (4 high-speed/IRQ) |
 | **Digital outputs** | 4 PNP (40 V 2.5 A) + 2 NPN aux | 3 relays 5 A → up to 7 | 4 PNP (40 V 2.5 A) | 8 opto (PNP/NPN/AC, 1 A 30 V) |
 | **Analog** | 2 inputs (12-bit) | — | 3 inputs + 2 motor-current | 4 inputs + 1 output (0–10 V / 4–20 mA) |
 | **Display** | — | opt. OLED 128×128 | — | **7" or 10" capacitive touch, 1024×600** |
 | **Motor driver** | — | — | **Toshiba TB67S128FTG** | opt. 27 V 43 A DC driver |
-| **RS485** | ✓ | ✓ + M-Bus | ✓ | ✓ |
-| **Storage / ports** | micro-SD, USB-C | micro-SD, micro-USB | micro-SD, USB-C | rear micro-SD + USB-C, **front USB stick** |
+| **RS485** | ✓ + M-Bus | ✓ + M-Bus | ✓ + M-Bus | ✓ + M-Bus |
+| **Storage / ports** | micro-SD, USB-C | micro-SD, USB-C | micro-SD, USB-C | rear micro-SD + USB-C, **front USB stick** |
 | **Repository** | [GEVINO-Opto-PNP](https://github.com/geva-elettronica/GEVINO-Opto-PNP) | [GEVINO-Civile](https://github.com/geva-elettronica/GEVINO-Civile) | [GEVINO-Motor](https://github.com/geva-elettronica/GEVINO-Motor) | [GEVINO-TFT-7-10](https://github.com/geva-elettronica/GEVINO-TFT-7-10) |
 
 ---
