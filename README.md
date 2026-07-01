@@ -48,6 +48,14 @@ See **[Models overview](docs/01-models-overview.md)** for the full comparison.
 
 ---
 
+## From the blog
+
+- **[7 · Why Choose GEVINO Instead of a Traditional PLC?](docs/07-why-choose-gevino-vs-plc.md)**
+- **[8 · How to Program a PLC with Artificial Intelligence in 2026](docs/08-program-plc-with-ai.md)**
+- **[9 · Arduino Is Not Industrial? Let's Clear Up the Misconceptions](docs/09-arduino-is-not-industrial.md)**
+
+---
+
 ## Common to every model
 
 - 32-bit **ARM Cortex-M0+**, 48 MHz (Microchip SAMD21), **256 KB** Flash, **32 KB** RAM.

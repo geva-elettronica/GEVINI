@@ -12,7 +12,8 @@ alongside the **[Arduino IDE path](02-install-arduino-ide.md)**: Claude writes t
 compile/upload it with the Arduino IDE.
 
 > **Before you start:** have the **[board library installed](03-install-libraries-first-sketch.md)**
-> in your Arduino sketchbook folder — Claude reads the library's `AGENTS.md` from there.
+> in your Arduino sketchbook folder — Claude reads the library's `AGENTS.md` from there. If it is not
+> installed yet, you can also just ask Claude to do it (see the tip in Step 3 below).
 
 ---
 
@@ -50,6 +51,12 @@ compile/upload it with the Arduino IDE.
 3. Claude now works directly on the files in that folder, the same way the command-line Claude Code
    does — it can read the library's `AGENTS.md`/`llms.txt` and create a new sketch alongside your
    others.
+
+> **Tip — let Claude install the library too:** if you skipped **[doc 3](03-install-libraries-first-sketch.md)**,
+> just ask, e.g. *"Download the GEVINO-Opto-PNP library from
+> https://github.com/geva-elettronica/GEVINO-Opto-PNP into the libraries folder here."* Claude will
+> fetch and place it under `libraries\` for you — restart the Arduino IDE afterwards so it picks up
+> the new library.
 
 ---
 

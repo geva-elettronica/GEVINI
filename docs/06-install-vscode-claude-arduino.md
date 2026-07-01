@@ -109,6 +109,9 @@ Claude Code is a command-line AI assistant that runs in the integrated terminal.
    ```
 
    (Swap in `GEVINO-Civile`, `GEVINO-Motor` or `GEVINO-TFT-7-10` for the other models.)
+
+   > **Tip:** once Claude Code is installed (Step 4), you can also just ask it to do this for
+   > you, e.g. *"Clone https://github.com/geva-elettronica/GEVINO-Opto-PNP.git into this folder."*
 2. In VS Code: **File → Open Folder…** and pick the repository folder.
 3. Open one of the sketches in `examples/` (e.g. the board test). Use Arduino Maker Workshop's
    **Verify/Compile** and **Upload** buttons (in the status bar / side panel) to build and flash it.
