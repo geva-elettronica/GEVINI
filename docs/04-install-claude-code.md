@@ -29,6 +29,9 @@ compile/upload it with the Arduino IDE.
 1. On first launch, sign in with your **Claude account** (create one if you don't have it yet).
 2. Once signed in you land on the main Claude window, with **Chats** and **Code** in the side bar.
 
+> **Subscription needed:** the **Code** mode is not available on the free plan. Subscribe to at
+> least a **Pro** plan (billed monthly, cancel anytime) to unlock it and try it for a month.
+
 ---
 
 ## Step 3 — Open your project in Code
